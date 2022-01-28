@@ -1,0 +1,14 @@
+name: "Web Hook Proxy"
+version: "1.0.6"
+slug: "web_hook_proxy"
+description: >-
+  "Proxy for web hook GET Methods"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  80/tcp: 7123
+hassio_api: true
